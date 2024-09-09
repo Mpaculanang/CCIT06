@@ -20,7 +20,7 @@
 }
 
 .btn-brand:hover{
-    background-color: blueviolet;
+    background-color: rgb(183, 43, 226);
     border: 3px solid black;
     color: black; 
 }
@@ -33,17 +33,57 @@ section{
     font-size: 55px;
     font-weight: 900;
     color: aqua;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
 
 #services{
     background-color: aqua;
+    
 }
 
 #services h3{
     font-size: 55px;
     font-weight: 900;
     color: black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(7, 2, 2);
 }
 .ok{
     width: 40%;
+}
+
+#services .btn-brand:hover{
+    color: bisque(255,255,255) !important ;
+    border-color: bisque(255,255,255) !important;   
+}
+
+.card{transition: background color 0.3s, color 0.3s;
+border: 5px solid var(--border); /* Border style */
+box-shadow: 0 0 10px currentColor(0, 0, 0, 0.2);
+border-radius: 30px;
+}
+
+
+
+
+.card:hover { 
+    background-color: rgb(226, 43, 150);
+}
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn {
+    color: #fff;
+}
+
+
+
+#services h2 {
+    font-size: 55px;
+    font-weight: 900;
+    color: rgb(139, 0, 81);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+
 }
