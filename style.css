@@ -1,0 +1,49 @@
+#banner{
+    height: 90vh;
+    background: url(th.jpg);
+    background-size: cover;
+    background-repeat: no repeat;
+    background-attachment: fixed;
+}
+
+.btn{
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 900;
+    transition: all .4s ease;
+}
+
+.btn-brand{
+    background-color: black;
+    color: #fff;
+}
+
+.btn-brand:hover{
+    background-color: blueviolet;
+    border: 3px solid black;
+    color: black; 
+}
+
+section{
+    padding: 100px 0px;
+}
+
+#about h2{
+    font-size: 55px;
+    font-weight: 900;
+    color: aqua;
+}
+
+#services{
+    background-color: aqua;
+}
+
+#services h3{
+    font-size: 55px;
+    font-weight: 900;
+    color: black;
+}
+.ok{
+    width: 40%;
+}
