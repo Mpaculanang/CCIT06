@@ -49,7 +49,9 @@ section{
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: rgb(7, 2, 2);
 }
-
+.ok{
+    width:40%;
+}
 
 
 #services .btn-brand:hover{
