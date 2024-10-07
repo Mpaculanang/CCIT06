@@ -34,7 +34,7 @@ section{
     font-weight: 900;
     color: aqua;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: rgb(7,2,2);
 }
 
 #services{
